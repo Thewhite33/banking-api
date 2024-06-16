@@ -2,10 +2,9 @@ This project is an Express.js API that provides endpoints to retrieve bank and b
 
 ## Features
 
-- Import bank data from a CSV file into MongoDB
-- Retrieve all banks
-- Retrieve branches of a specific bank
-- Retrieve details of a specific branch
+- Provided end-poinst to retrieve all banks
+- Provided end-poinst to retrieve data of a specific bank
+- Provided end-poinst to retrieve details of a specific bank's branch
 
 ## Technologies Used
 
@@ -13,15 +12,15 @@ This project is an Express.js API that provides endpoints to retrieve bank and b
 - Express.js
 - MongoDB
 - Mongoose
-- dotenv
-- Mocha
-- Chai
-- Supertest
 
-## Getting Started
+## How was it build
 
-### Prerequisites
+1.Created a express app
+2.Created a mongoDB cloud instance and imported all the csv data into it.
+3.Created Schema for mongoDB 
+4.Added the business logic to retrieve all the required data
 
-- Node.js and npm installed
-- MongoDB instance (local or cloud)
-- MongoDB Compass (optional, for importing CSV data)
+## Time Taken
+
+- Development: 45 minutes
+- Deployment and Documentation: 45 minutes
