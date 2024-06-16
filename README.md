@@ -1,0 +1,1 @@
+This project is an Express.js API that provides endpoints to retrieve bank and branch details from a MongoDB database. The data is imported from a CSV file into MongoDB, and the API allows users to search for banks and branches by name.
