@@ -4,7 +4,7 @@ const Bank = require('../models/bank');
 const router = express.Router();
 
 //Get all the banks name
-router.get('/', async (req, res) => {
+router.get('/banks', async (req, res) => {
     try {
         const banks = await Bank.find().distinct('bank_name');
         res.json(banks);
