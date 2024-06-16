@@ -15,10 +15,11 @@ This project is an Express.js API that provides endpoints to retrieve bank and b
 
 ## How was it build
 
-1.Created a express app
-2.Created a mongoDB cloud instance and imported all the csv data into it.
-3.Created Schema for mongoDB 
-4.Added the business logic to retrieve all the required data
+- Created a express app
+- Created a mongoDB cloud instance and imported all the csv data into it.
+- Created Schema for mongoDB 
+- Added the business logic to retrieve all the required data
+- Now all the required information can be captured using hitting the correct endpoints.
 
 ## Time Taken
 
